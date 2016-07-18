@@ -1,5 +1,5 @@
 build:
-- mvn package
+- bundle install
 env:
-  APP_COMMAND: target/bin/cli-example
+  APP_COMMAND: ruby main.rb
 test: mocha
